@@ -1,5 +1,6 @@
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/00000000/placeholder.jpg" alt="THANUJA-MD" width="300"/>
+  <img src="./thanuja-md.jpg" width="300"/>
 </p>
 
 <h1 align="center">🤖 THANUJA-MD - WhatsApp Bot</h1>
