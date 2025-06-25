@@ -6,12 +6,13 @@ module.exports = {
 
   run: async (client, m, args) => {
     const msg = {
-      text: `🤖 *THANUJA-MD Bot Alive!*\n\n✅ Bot is working fine!\n📆 Date: ${new Date().toLocaleDateString()}\n⏰ Time: ${new Date().toLocaleTimeString()}\n\nSend *.menu* to see all commands.`,
+      text: `🤖 *THANUJA-MD Bot Alive!*\n\n📅 Date: ${new Date().toLocaleDateString()}\n⏰ Time: ${new Date().toLocaleTimeString()}\n\nWelcome! Use the buttons below to get started.`,
       footer: '🛠️ Powered by THANUJA-MD',
       buttons: [
-        { buttonId: '.menu', buttonText: { displayText: '📜 MENU' }, type: 1 },
-        { buttonId: '.owner', buttonText: { displayText: '👤 OWNER' }, type: 1 },
-        { buttonId: '.ping', buttonText: { displayText: '📶 PING' }, type: 1 }
+        { buttonId: '.song', buttonText: { displayText: '🎵 SONG' }, type: 1 },
+        { buttonId: '.video', buttonText: { displayText: '🎥 VIDEO' }, type: 1 },
+        { buttonId: '.image', buttonText: { displayText: '🖼️ IMAGE' }, type: 1 },
+        { buttonId: '.menu', buttonText: { displayText: '📜 MENU' }, type: 1 }
       ],
       headerType: 1
     };
