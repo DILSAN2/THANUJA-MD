@@ -1,0 +1,40 @@
+{
+  "main": {
+    "title": "🤖 THANUJA-MD Bot Help Menu",
+    "description": "ඔබට භාවිතා කළ හැකි විධාන (Commands) ලැයිස්තුව මෙහි ඇත.",
+    "footer": "🛠️ Powered by THANUJA-MD"
+  },
+  "categories": {
+    "general": {
+      "title": "📌 General Commands",
+      "commands": {
+        "help": "Help menu එක පෙන්වයි",
+        "ping": "Bot response speed පරීක්ෂා කරන්න",
+        "menu": "Command menu එක පෙන්වයි"
+      }
+    },
+    "group": {
+      "title": "👥 Group Commands",
+      "commands": {
+        "promote": "User එකක් admin කරන්න",
+        "demote": "Admin එකක් user කරන්න",
+        "kick": "Group එකෙන් member එකකු remove කරන්න",
+        "tagall": "Group එකේ හැමෝට mention කරන්න"
+      }
+    },
+    "fun": {
+      "title": "🎉 Fun Commands",
+      "commands": {
+        "joke": "Random joke එකක් පෙන්වයි",
+        "meme": "Random meme එකක් යවයි"
+      }
+    },
+    "owner": {
+      "title": "🔐 Owner Only Commands",
+      "commands": {
+        "eval": "Code evaluate කරන්න",
+        "shutdown": "Bot එක off කරන්න"
+      }
+    }
+  }
+  }
