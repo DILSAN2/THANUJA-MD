@@ -25,7 +25,9 @@
 
 ## 📸 Preview
 
-![THANUJA-MD](./file-GqmukTn8T3U1iQ3Ucn4D9A)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DILSAN2/THANUJA-MD/main/thanuja-md.jpg" width="300"/>
+</p>
 
 ---
 
