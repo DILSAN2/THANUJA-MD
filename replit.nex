@@ -1,12 +1,22 @@
-{
-  "name": "baileys-bot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.0",
-    "@hapi/boom": "^10.0.0"
-  }
+const { default: makeWASocket } = require('@whiskeysockets/baileys');
+const { Boom } = require('@hapi/boom');
+
+async function startBot() {
+  const sock = makeWASocket({
+    printQRInTerminal: true,
+  });
+
+  sock.ev.on('connection.update', (update) => {
+    const { connection, lastDisconnect } = update;
+    if (connection === 'close') {
+      const shouldReconnect = (lastDisconnect.error = Boom)?.output?.statusCode !== DisconnectReason.loggedOut;
+      if (shouldReconnect) {
+        startBot();
+      }
+    } else if (connection === 'open') {
+      console.log('✅ Bot Connected');
+    }
+  });
 }
+
+startBot();
