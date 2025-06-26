@@ -1,0 +1,14 @@
+{
+  "users": {
+    "94702509233": {
+      "name": "Thanuja",
+      "premium": true,
+      "limit": 50
+    }
+  },
+  "settings": {
+    "prefix": ".",
+    "owner": ["94702509233"],
+    "botName": "THANUJA-MD"
+  }
+}
